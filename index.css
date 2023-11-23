@@ -1,385 +1,98 @@
-.main{
-    background-color: black;
-    flex-wrap: wrap;   
-}
-.fa-instagram{
-    position: fixed;
-    margin: 35% 0px 40% 95% ;
-    color: white;
-    width: 15px;
-    height: 15px;
-    background-color: black;
-    padding:10px;
-    font-size: 20px;
-    display: block;  
-}
-.menubar{
+.navigate{
     display: flex;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
-
-}
-.fa-bars{
-    color: rgb(14, 216, 243);
-    position: relative;
-    font-size: 50px;
-    margin-right: 90px;
-    margin-left: 0px;
-}
-.heading{
-    position: relative;
-    font-size: 20px;
-    color: white;
-    margin: 5px 0px 0px 55px;
-    padding: 20px 0px 0px 55px;
-    /* flex-wrap: wrap; */
-    
-}
-.img2{
-    /* float: left; */
-    width: 100px;
-    height: 100%;
-    padding: -30px 0px 0px 80px;
-    margin: -10px 0px 0px 80px;
-    display: block;
-    position: relative;
-}
-#butt{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    margin: 50px 0px 0px 0px;
-    padding: 50px 0px 0px 0px;
-}
-#button{
-    margin:0px 40px 10px 0px ;
-    padding: 10px 20px;
-    width: 180px;
-    border-radius: 0px;
-}
-.img1{
-    position: absolute;
-    width:85%;
-    margin: 0px 0px 40px 40px ;
-    padding: 0px 20px 40px 40px;
-    overflow: hidden;
-    opacity: 0.6;
-}
-.title{
-    position: relative;
-    font-size: 65px;
-    color: white;
-    flex-wrap: wrap;
-    margin:-30px;
-    /* padding: 0px 0px 0px 50px; */
-}
-.sub-title{
-    margin: -30px;
-    /* padding: 0px 90px 0px 140px ; */
-    color: rgba(255, 255, 255, 0.859);
-    
-}
-
-.list{
-    display: inline-flex;
-    margin: 0px;
-    padding: 0px;
-    font-size: 20px;
-}
-.space-flex{
-    padding: 250px 0px;
-    display: flex;
-}
-.flexing{
-    width: 50%;
-    font-size: 20px;
-}
-.flexing h2{
-    text-align: left;
-    /* padding-left: 10px; */
-}
-.second-h{
-    font-size: 100px;
-}
-.fa-earth-africa{
-    color: blue;
-}
-.paragraph{
-    font-size: 20px;
-    padding:20px 0px 0px 100px;
-    margin: 50px 100px;
-    width: 40%;
-}
-.image{
-    display: inline-flex;
-    overflow-x: auto;
-    width: auto;
-    height: auto;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    
-}
-.studio-space{
-    text-align: center;
-    margin: 100px;
-    font-size: 20px;
-    padding: 50px;
-}
-.btn{
-    border: 1px solid #f9f5f5;
-    color: rgb(239, 237, 236);
-    background-color: black;
-    display: inline-block;
-    /* border-radius: 10px; */
-    font-size: 15px;
-    padding: 10px 0px 10px 20px;
-    margin: 10px 0px 10px 20px ;
-    position: relative;
-    width: 250px;
-    height: 60px;
-}
-button:hover{
-    background-color: rgb(245, 7, 7);
-}
-.imagegallery{
-    display:flex;
-    justify-content: space-evenly;  
-    padding-bottom: 500px;  
-    margin-left: -180px;  
-}
-.img3{
-    width: 380px;
-    height:700px;
-    opacity: 0.7;
-}
-#margin_line1{
-    margin-top: 400px;
-    position: absolute;
-}
-.textlines h1 {
-    position:relative;
-    margin-top: 900px;
-    text-align: center;
-}
-.trans:hover{
-    transition: .8s;
-    transform: translate(0% , -50%)
-}
-
-.textlines p{
-    position: relative;
-    color: rgb(255, 255, 255);
-    width: 350px;
-   
-}
-#margin_line2{
-    margin-top: 200px;
-    padding-left: 0px;
-    position: absolute;
-}
-.trans2{
-    position: relative;
-    width: 300px;
-    margin-top: 700px;
-    margin-left: 30px;
-}
-.trans2:hover{
-    transition: .8s;
-    transform: translate(0% , -50%)
-}
-#margin_line3{
-    margin-top: 550px;
-    position: absolute;
-    margin-right: 80px;
-
-}
-.trans3{
-    position: relative;
-    width: 300px;
-    margin-top: 1000px; 
-    margin-left: 60px; 
-}
-.trans3:hover{
-    transition: .8s;
-    transform: translate(0% , -50%)
-}
-.img4{
-    width: 600px;
-    height:750px;
-    margin-top: 150px;
-    padding-left: 80px;
-}
-.thestudiopart{
-    display: flex;
-}
-.thestudio-heading{
-    margin: 140px 120px 0px 70px;
-    font-size: 90px;
-}
-.thestudio-paragraph{
-    margin: 10px 20px 0px 70px;
-    font-size: 20px;
-}
-.thestudio-list{
-    font-size: 20px;
-    margin: 40px 20px 0px 70px;
-    line-height: 50px;
-}
-hr{
-    margin: 40px 15px ;
-    opacity: 0.5;
-}
-.button{
-    border: 1px solid red;
-    background-color: rgba(202, 9, 9, 0.829);
-    color: white;
-    margin: 50px 50px 0px 100px;
-    font-size: 15px;
-    padding: 20px 60px;
-}
-button:hover{
-    background-color: white;
-    color: rgba(202, 9, 9, 0.829);
-}
-.production-layer{
-    background-color: black;
-    margin: 200px 0px 0px 0px;
-    text-align: center;
-}
-.production-layerheading1{
-    text-align: center;
-    font-size: 40px;
-    color: white;
-    margin: 40px 0px 0px;
-    padding: 150px 0px 0px;
-}
-hr{
-    margin: 40px 25% 0px 25% ;
-}
-.production-layerheading2{
-    text-align: center;
-    color: white;
-    font-size: 25px;
-}
-.secondpart{
-    background-color: black;
-}
-.production-button{
-    text-align: center;
-    padding: 20px 50px ;
-    background-color: rgba(197, 12, 12, 0.932);
-    margin: 10px 20px;
-    border: 1px solid rgba(181, 10, 10, 0.839);
-    font-size: 15px;
-}
-.production-button:hover{
-    background-color: black;
-    color: white;
-    border: 1px solid white;
-}
-.stayconnected{
-    display: flex;
-    align-items: center;
-    color: white;
-    margin-top: 180px;
-}
-.stayconnectedpart-1{
-    font-size: 70px;
-    color: aqua;
-    padding-left: 60px;
-    margin: 60px;
-    padding-top: 80px;
-    width: 50%;
-    font-family: 'Saira Condensed', sans-serif;
-}
-.staypara{
-    font-size: 20px;
-    color: white;
-    margin-top: 0px;
-}
-.form1{
-    width: 50%;
-    padding: 30px;
-    margin-left: 20px;
-    margin-bottom: 30px;
-    font-size: 20px;
-    color: white;
-    margin-top: 250px;
-}
-input{
-    width: 300px;
-    background-color: black;
-    border-width: 0px 0px 1px 0px;
-    border-radius: 0px 0px 0px 0px; 
+    justify-content: right;
+    width: 100%;
+    padding: 10px;
     margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: 20px;
-    text-size-adjust: 30px;
     color: white;
-}
-.stayconnectbutton{
-    width: 350px;
-    padding: 20px;
     background-color: black;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.71);
+    background-image: url(https://img.freepik.com/free-vector/realistic-style-technology-particle-background_23-2148426704.jpg);
+
+}
+.signbtn{
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: brown;
     color: white;
-    border: 1px solid white;
+    cursor: pointer;
     font-size: 20px;
 }
-.stayconnectbutton:hover{
-    background-color: white;
+.container{
+    justify-content: center;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.55);
+    padding: 40px 80px;
+    margin-top: 0px;
+    margin-left: 400px;
+}
+h1{
+    font-size: 30px;
+    color: blueviolet;
+    justify-content: center;
+}
+label{
+    font-size: 15px;
     color: black;
 }
-.horizontal{
-    color: white;
-    margin: 10px 40px 20px;  
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 9px;
+    border: 1px solid black;
 }
-.servicesbutton{
-    display: flex;
-    justify-content: space-evenly;
-    width: 60%;
-}
-.servicebtns{
-    background-color: black;
-    color: white;
-    border-style: none;
-    margin:40px 10px 60px;
-}
-.servicebtns:hover{
-    background-color: black;
-    color: aqua;
-}
-.bookingbtn{
-    width: 300px;
-    padding: 20px;
-    background-color: rgb(224, 16, 16);
-    color:black;
-    font-size: 15px;
-    margin: 30px 0px 20px 70%;
+.signbtn:hover{
+    background-color: white;
+    color: black;
     border: 1px solid red;
 }
-.bookingbtn:hover{
-    background-color: black;
-    color: white;
-    border-color: white;
+.welcome{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 90px;
+    color: rgb(235, 24, 24);
+    font-size: 40px;
+    justify-content: center;
+    padding-left: 80px;
 }
-.silenceblock{
-    margin-left: 70px;
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-    word-spacing: 5px;
+select{
+    width: 250px;
+    height: 30px;
+    border-radius: 9px;
+    border: 1px solid black;
 }
-.policy{
-    color: white;
-    display: flex;
-    justify-content: space-between;  
-    margin: 80px 0px  ;
+.terms{
+    display: inline-flex;
+    width: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.policypara{
-    margin-left: 60px;
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    font-size: 20px;
+    font-weight: 700;
 }
-.policybtn{
-    text-decoration: none;
-    color: white;
-    margin-right: 350px;
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 998;
 }
