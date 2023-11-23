@@ -1,0 +1,305 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: grey;
+      background-image: url(https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg);
+    }
+    .heading{
+        font-size: 20px;
+        color: black;
+        justify-content: center;
+        padding-left: 100px;
+        margin-left: 180px;
+    }
+    
+    .breadcrumb {
+      list-style: none;
+      color: white;
+      padding: 0;
+      margin: 0;
+      background: #0c0c0c;
+      display: flex;
+    }
+
+    .breadcrumb li {
+      display: inline;
+      padding: 20px;
+    }
+
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      margin-top: 20px;
+      width: 80px;
+      background-color: brown;
+      color: white;
+      border-radius: 9px;
+      padding: 10px 30px;
+    }
+    .course{
+        color: white;
+        background-color: brown;
+        font-size: 20px;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      font-size: 15px;
+      background-color: black;
+      color: white;
+      width: 100px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .pagination {
+      display: flex;
+      justify-content: center;
+      margin-left: 200px;
+      margin-top: 0px;
+      padding-left: 400px;
+      list-style: none;
+      
+    }
+
+    .pagination li {
+      margin: 0 5px;
+    }
+
+
+    .steps {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 10px 0;
+    }
+
+    .steps li {
+      margin: 0 10px;
+    }
+
+    
+    .autocomplete {
+      position: relative;
+      display: inline-block;
+    }
+
+    .autocomplete-input {
+      padding: 10px;
+      width: 400px;
+      justify-content: center;
+    }
+
+    .autocomplete-list {
+      position: absolute;
+      z-index: 1;
+      color: white;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      background-color: rgba(0, 0, 0, 0.461);
+      border: 1px solid #ccc;
+     
+    }
+
+    .autocomplete-list-item {
+      padding: 8px;
+      cursor: pointer;
+    }
+
+    .autocomplete-list-item:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    
+    .cascader {
+      position: relative;
+      display: inline-block;
+      margin: 10px;
+      padding: 10px;
+      background-color: aqua;
+      border-radius: 9px;
+
+    }
+    .case{
+        background-color: aqua;
+        font-size: 15px;
+        border-radius: 9px;
+        border-width: opx;
+        border-style: none;
+    }
+
+    .cascader-content {
+      display: none;
+      position: absolute;
+      background-color: #090808;
+      color: white;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .cascader:hover .cascader-content {
+      display: block;
+    }
+
+    .cascader-content-item {
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .cascader-content-item:hover {
+      background-color: #9d1c1c;
+    }
+    .img{
+        width: 20%;
+        margin-top: 40px;
+        height: 30%;
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .img1{
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 40px;
+        padding: 20px;
+    }
+    .upload-container {
+        margin: 20px 0;
+      }
+  
+      .upload-btn-wrapper {
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+      }
+  
+      .btn {
+        border: 2px solid gray;
+        color: gray;
+        background-color: rgb(171, 8, 8);
+        padding: 8px 20px;
+        border-radius: 8px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+  
+      .upload-btn-wrapper input[type=file] {
+        font-size: 100px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+      }
+      .time-picker {
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+  
+      th, td {
+        border: 1px solid #0b0505;
+        padding: 8px;
+        text-align: left;
+      }
+  
+      th {
+        background-color: #433333;
+      }
+      .timeline {
+        list-style: none;
+        padding: 0;
+      }
+  
+      .timeline-item {
+        margin-bottom: 20px;
+      }
+  
+      .timeline-date {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+  
+      .timeline-content {
+        border-left: 2px solid #007bff;
+        padding-left: 10px;
+      }
+      #sidebar{
+        display: inline-flex;
+        justify-content: space-around;
+        margin-left: 200px;
+      }
+      .progress-container {
+        width: 50%;
+        margin: 80px auto;
+      }
+  
+      .progress-bar {
+        height: 20px;
+        background-color: #f1f1f1;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+  
+      .progress-fill {
+        height: 100%;
+        width: 0;
+        background-color: #f700ff;
+        border-radius: 10px;
+        transition: width 0.3s;
+      }
+  
+      /* Result styles */
+      .result-container {
+        margin: 20px 0;
+      }
+  
+      .result {
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+      }
+  
+      /* Spin styles */
+      .spin-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+      }
+  
+      .spinner {
+        border: 8px solid #f3f3f3;
+        border-top: 8px solid #007bff;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: spin 1s linear infinite;
+      }
+  
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      .report-container {
+        margin: 20px 0;
+      }
+  
+      .report {
+        border: 1px solid #0f0f0f;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+  
