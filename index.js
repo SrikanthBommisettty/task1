@@ -47,3 +47,4 @@ submitButton.addEventListener("click", function () {
     console.log("Submit button clicked");
     openpage();
 });
+

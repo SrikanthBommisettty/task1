@@ -7,14 +7,20 @@
     <link rel="stylesheet" href="studio.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="index.js"></script>
+    
+    <script>
+        function booknow() {
+            window.location.href = "./booknow.html";
+        }
+    </script>
 </head>
-<body onclick="openpage()" id="openpage">
+<body  id="openpage">]
     <i class="fa-brands fa-instagram"></i>
     <div class="main" id="text">
         <div id="butt">
             <img class="img2" src="./img/logo.png" alt="">
             <div class="menubar">
-                <button class="btn" id="button">BOOK NOW</button>
+                <button class="btn" id="button" onclick="booknow()" >BOOK NOW</button>
                 <i class="fa-solid fa-bars"></i>
             </div>
         </div>
@@ -50,7 +56,7 @@
                 <h1>FULL-SERVICE ATLANTA STUDIO SPACE</h1>
                 <p>Versatile Space For All Your Studio Rental Needs</p>
                 <p>• STUDIO SPACE • MAKEUP STATION  • GARAGE LOADING DOCK <br> <br> • SOUND DAMPENED FACILITY   • WHITE CYC WALL <br> <br> •DRESSING ROOM   • AND MORE </p>
-                <button class="btn">VIEW ALL SERVICES</button>         
+                <button class="btn" onclick="booknow()">VIEW ALL SERVICES</button>         
             </div>
             <div class="imagegallery" >
                 <div class="textlines">
@@ -91,14 +97,14 @@
                 <i class="fa-solid fa-person-booth" style="color: #050505;"></i>  Makeup & Changing Stations <br>
                 <i class="fa-solid fa-power-off" style="color: #070709;"></i> 4x Dedicated Power Outlets (80Amps) 
             </p>
-            <button class="button">SEE STUDIO GALLERY</button>
+            <button class="button" onclick="booknow()">SEE STUDIO GALLERY</button>
         </div>
     </div>
     <div class="secondpart">
         <div class="production-layer">
             <h1 class="production-layerheading1">BRING YOUR ATLANTA PRODUCTION TO LIFE</h1><hr>
             <p class="production-layerheading2">BOOK YOUR STUDIO TIME NOW AND LET YOUR CREATIVITY FLOW</p>
-            <button class="production-button">BOOK STUDIO SPACE</button>
+            <button class="production-button" onclick="booknow()">BOOK STUDIO SPACE</button>
         </div>
         <div class="stayconnected">
             <div class="stayconnectedpart-1">
@@ -111,7 +117,7 @@
                 <label> EMAIL ADDRESS</label><br><br>
                 <input type="email">
                 <p>Could not connect to the reCAPTCHA service. Please check your internet connection and reload to get a reCAPTCHA challenge.</p>
-                <button class="stayconnectbutton">SUBSCRIBE</button>
+                <button class="stayconnectbutton" onclick="booknow()">SUBSCRIBE</button>
             </div>
         </div>
         <hr class="horizontal">
@@ -120,7 +126,7 @@
             <button class="servicebtns">PRICES</button>
             <button class="servicebtns">GALLERY</button>
             <button class="servicebtns">CONTACT</button>
-            <button class="servicebtns">BOOK STUDIO SPACE</button>
+            <button class="servicebtns" onclick="booknow()">BOOK STUDIO SPACE</button>
         </div>
         
         <button class="bookingbtn">BOOK STUDIO SPACE</button><br>
